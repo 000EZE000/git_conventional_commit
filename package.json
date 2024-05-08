@@ -40,7 +40,7 @@
     "branches": [
       "main"
     ],
-    "repositoryUrl": "https://github.com/activar-app/API-V2.0.git",
+    "repositoryUrl": "https://github.com/000EZE000/git_conventional_commit.git",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
