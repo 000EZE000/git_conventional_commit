@@ -23,8 +23,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
-      - name: Discord Notification
-        uses: tsickert/discord-webhook@v5.3.0
-        with:
-          webhook-url: ${{ secrets.WEBHOOK_URL }}
-          content: Testing discord notification ${{ steps.semantic.outputs.new_release_version }} ${{ steps.semantic.outputs.new_release_notes }}.
